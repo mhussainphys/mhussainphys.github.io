@@ -1,0 +1,176 @@
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+.navbar-brand img
+{
+	height: 160px;
+	padding-left: 20px;
+}
+
+.navbar-nav li
+{
+	padding: 0 20px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: black!important;
+}
+
+.navbar 
+{
+	font-family:"American Typewriter" !important;
+	background: rgb(240, 240, 214);
+	color:rgb(51, 51, 51)!important;
+}
+
+.navbar.navbar-expand-lg.navbar-light li a{
+    color: rgb(51, 51, 51)!important;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+.navlink
+{
+	color: rgb(51, 51, 51)!important;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#slider
+{
+	width: 100%
+}
+
+.carousel-caption{
+	top:10%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+	font-family: "courier";
+}
+
+.carousel-caption h5
+{
+	color: rgb(51, 51, 51);
+	font-size:22px;
+	 
+}
+
+#about
+{
+	width: 100%
+}
+
+.container
+{
+	padding-top: 50px;
+	font-family: "american typewriter";
+	padding-bottom: 60px;
+}
+
+.container h5
+{
+	color:rgb(51, 51, 51);
+	font-size:20px;
+}
+
+#contact
+{
+	padding-top: 30px;
+	width: 100%
+}
+
+/*i.fa 
+{
+	-webkit-animation: show 10s 1;
+	/* any other properties to override from FontAwesome's default .fa rule */
+/*}
+@-webkit-keyframes show 
+{
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}*/
+
+
+#contact a:hover
+{
+	color: black!important;
+}
+
+.fa-skype:hover {
+    color:black!important;
+}
+
+.fa-linkedin:hover {
+    color:black!important;
+}
+
+.fa-github:hover {
+    color:black!important;
+}
+.fa-envelope:hover {
+    color:black!important;
+}
+.fa-file:hover {
+    color:black!important;
+}
+
+.firstName
+{
+	color:rgb(54, 54, 54)!important;
+	font-family: "impact";
+	font-size:40px;
+	height: 70px;
+}
+
+.lastName
+{
+	color:rgb(161, 160, 160)!important;
+	font-family: "impact";
+	font-size:40px;
+	height: 70px;
+}
+
+#about2 h3
+{
+	font-family: "impact";
+	padding-bottom: 20px;
+}
+
+#about2 h6
+{
+	font-family: "courier";
+	padding-bottom: 20px;
+}
+
+#about2
+{
+	padding-bottom: 50px;
+}
+
+#Resume h3
+{
+	font-family: "impact";
+	padding-bottom: 20px;
+}
+
+#Resume
+{
+	padding-bottom: 50px;
+}
+
+#Contact
+{
+	padding-bottom: 50px;
+}
