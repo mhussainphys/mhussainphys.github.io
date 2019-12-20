@@ -28,9 +28,9 @@
 
 .navbar 
 {
-	font-family:"impact, fantasy" !important;
+	font-family:"impact" !important;
 	background: white;
-	font-weight: 500;
+	font-weight: 100;
 }
 
 .navbar.navbar-expand-lg.navbar-light li a{
@@ -77,13 +77,14 @@
 	padding-top: 50px;
 	font-family: "impact, fantasy";
 	padding-bottom: 60px;
-	font-weight: 1000;
+
 }
 
 .container h5
 {
 	color:rgb(51, 51, 51);
 	font-size:20px;
+	font-weight: bold;
 }
 
 #contact
@@ -151,7 +152,7 @@
 
 }
 
-#about2 h3
+#about2 h2
 {
 	font-family: "impact";
 	padding-bottom: 0px;
@@ -166,11 +167,79 @@
 	color:rgb(54, 54, 54);
 }
 
+
+#education
+{
+	padding-bottom: 0px;
+	background-color:rgb(223, 223, 223)!important;
+
+}
+
+#education h2
+{
+	font-family: "impact";
+	padding-bottom: 50px;
+	color:rgb(54, 54, 54);
+	font-weight: 1000;
+}
+
+#education h3
+{
+	font-family: "impact";
+	padding-bottom: 0px;
+	color:rgb(54, 54, 54);
+	font-weight: 1000;
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+#education h5
+{
+	font-family: "courier";
+	padding-bottom: 0px;
+	color:rgb(54, 54, 54);
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+#education h6
+{
+	font-family: "courier";
+	padding-bottom: 80px;
+	color:rgb(54, 54, 54);
+	font-weight: 300;
+	font-size: 18px;
+}
+
+#education a
+{
+	color: rgb(87, 59, 59)!important;
+}
+
+#education a:hover
+{
+	color: black!important;
+}
+
+
+
+
+
+
 #research
 {
 	padding-bottom: 0px;
 	background-color:rgb(223, 223, 223)!important;
 
+}
+
+#research h2
+{
+	font-family: "impact";
+	padding-bottom: 50px;
+	color:rgb(54, 54, 54);
+	font-weight: 1000;
 }
 
 #research h3
@@ -179,17 +248,45 @@
 	padding-bottom: 0px;
 	color:rgb(54, 54, 54);
 	font-weight: 1000;
+	font-size: 25px;
+	padding-bottom: 15px;
 }
+
+#research h5
+{
+	font-family: "courier";
+	padding-bottom: 0px;
+	color:rgb(54, 54, 54);
+	font-weight: bold;
+	font-size: 18px;
+}
+
 
 #research h6
 {
-	font-family: "impact, fantasy";
-	padding-bottom: 0px;
+	font-family: "courier";
+	padding-bottom: 80px;
 	color:rgb(54, 54, 54);
+	font-weight: 300;
+	font-size: 18px;
+}
+
+#research a
+{
+	color: rgb(87, 59, 59)!important;
+}
+
+#research a:hover
+{
+	color: black!important;
 }
 
 
-#Resume h3
+
+
+
+
+#Resume h2
 {
 	font-family: "impact";
 	padding-bottom: 20px;
@@ -199,11 +296,13 @@
 #Resume
 {
 	padding-bottom: 50px;
+	background-color:rgb(223, 223, 223)!important;
 }
 
 #contact
 {
 	padding-bottom: 50px;
+	background-color:rgb(223, 223, 223)!important;
 }
 
 #contact h3
