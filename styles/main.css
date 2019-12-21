@@ -3,6 +3,10 @@
 	font-family: simp;
 }
 
+html
+{
+	scroll-behavior: smooth;
+}
 #nav-bar
 {
 	position: sticky;
@@ -89,7 +93,7 @@
 .container h5
 {
 	color:rgb(51, 51, 51);
-	font-size:30px;
+	font-size:23px;
 	font-weight: bold;
 }
 
@@ -138,18 +142,18 @@
 {
 	color:rgb(54, 54, 54)!important;
 	font-family: simp;
-	font-size:35px;
+	font-size:28px;
 	font-weight:bold;
-	height: 55px;
+	height: 50px;
 }
 
 .lastName
 {
 	color:rgb(161, 160, 160)!important;
 	font-family: simp;
-	font-size:35px;
+	font-size:28px;
 	font-weight:bold;
-	height: 55px;
+	height: 50px;
 }
 
 
